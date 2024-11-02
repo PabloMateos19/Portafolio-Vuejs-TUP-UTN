@@ -1,13 +1,18 @@
 <script setup>
+import linkedin from '/src/assets/linkedin_icon.svg';
+import facebook from '/src/assets/facebook_icon.svg';
+import github from '/src/assets/github_icon.svg';
+import cv from '/src/assets/curriculum_icon.svg';
+
 const title = 'Pablo Mateos';
 const descripcion = 'Tecnico Universitario en Programación - UTN FRSR';
 const residencia = 'San Rafael, Mendoza, Argentina';
 const presentacion = 'Bienvenido a mi portafolio de proyectos. Tengo una pasión por la tecnología y el desarrollo de software. Actualmente estoy ampliando mis conocimientos en lenguajes como Python, JavaScript y Java, y estoy emocionado por explorar más en el mundo de la programacion.';
 const redesSociales = [
-    {id: 1, name: 'linkedin', src:'/src/assets/linkedin_icon.svg', url: 'https://www.linkedin.com/in/pablo-mateos-23a883251/'},
-    {id: 2, name: 'facebook', src:'/src/assets/facebook_icon.svg', url: 'https://www.facebook.com/pablo.mateos/'},
-    {id: 3, name: 'github', src:'/src/assets/github_icon.svg', url: 'https://github.com/PabloMateos19'},
-    {id: 4, name: 'curriculum', src:'src/assets/curriculum_icon.svg', url: ''},
+    {id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/pablo-mateos-23a883251/'},
+    {id: 2, name: 'facebook', src: facebook, url: 'https://www.facebook.com/pablo.mateos/'},
+    {id: 3, name: 'github', src: github, url: 'https://github.com/PabloMateos19'},
+    {id: 4, name: 'curriculum', src: cv, url: ''},
 ];
 const telefono ='+54 9 2604-338891';
 </script>
